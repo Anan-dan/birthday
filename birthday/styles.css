@@ -1,0 +1,80 @@
+
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+    position: fixed; /* 添加这行 */
+    top: 0;           /* 添加这行 */
+    left: 0;          /* 添加这行 */
+    width: 100%;      /* 添加这行，确保header宽度与视口相同 */
+    z-index: 1000;    /* 添加这行，确保header覆盖其他元素 */
+}
+
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+    background-color: #fdebd0; /* 淡黄色背景 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+.container {
+    display: flex; /* 使用Flexbox布局 */
+    align-items: left; /* 垂直居中对齐 */
+}
+
+.small-icon {
+    width: 700px; /* 图片宽度 */
+    height: 420px; /* 图片高度 */
+    margin-right: 450px; /* 与登录容器之间的间距 */
+    margin-top: 130px;
+    
+}
+.login-container {
+    background-color: #ffcccb; /* 淡粉色 */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    width: 350px;
+    height: 380px;
+    position: fixed; /* 添加这行 */
+    bottom: 30px;    /* 添加这行 */
+    right: 50px;     /* 添加这行 */
+}
+.login-container h2 {
+    text-align: center;
+    color: #f8808c; /* 粉色标题 */
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f77d89;
+}
+
+.login-container input {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #FFCDD2;
+    border-radius: 4px;
+    background-color: #fdebd0;
+    margin-top: 15px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ed8a94;
+    color:  #fdebd0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px; /* 添加这行，数值可以根据需要调整 */
+}
+
+.login-container button:hover {
+    background-color: #eeacc2; /* 深粉色 */
+}

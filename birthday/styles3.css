@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdebd0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+}
+.wish-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    animation: fadeInOut 4s infinite;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcccb;
+
+}
+
+#wish {
+    animation: fadeInOutText 2s ease-in-out infinite;
+    opacity: 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+@keyframes fadeInOut {
+    0%, 100% { opacity: 0; }
+    50% { opacity: 1; }
+}
+
+@keyframes fadeInOutText {
+    0% { transform: translateY(-50px); opacity: 0; }
+    50% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(50px); opacity: 0; }
+}

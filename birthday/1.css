@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fdebd0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcccb;
+    padding: 20px;
+    text-align: center;
+}
+
+.invitation {
+    width: 80%;
+    margin: auto;
+    background-color: #fdebd0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffcccb;
+}
